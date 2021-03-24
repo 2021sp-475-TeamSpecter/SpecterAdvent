@@ -12,21 +12,11 @@ public class EnemyController : MonoBehaviour
     public RectTransform healthBar; 
     // Health decrease over time
     public float decreaseTime = 1;
-    public float prevTime; 
-
-    [Header( "Movement" )]
-    public float movementSpeed = 1;
-    public Rigidbody2D rigidbody;
-    public Transform spriteTransform; 
-    public GameObject player;
-
+    public float prevTime;
 
     void Start()
     {
         currentHealth = maxHealth;
-        rigidbody = GetComponent<Rigidbody2D>();
-        // Keep track of player
-        player = GameObject.Find("Player"); 
         
     }
 
@@ -39,16 +29,23 @@ public class EnemyController : MonoBehaviour
         float barLevel = healthPercent * 200;
         healthBar.sizeDelta = new Vector2(barLevel, healthBar.sizeDelta.y);
         
-        // gradually decrease health 
-        if (Time.time > prevTime + decreaseTime)
+        // enemy ran out of health
+        if (currentHealth <= 0)
         {
-            prevTime = Time.time;
-            currentHealth -= 5;
+            Die();
         }
 
-        // move towards player
-        Vector3 directionToPlayer = player.transform.position - transform.position;
-        rigidbody.velocity = directionToPlayer.normalized * movementSpeed;
+    }
 
+    // subtracts a given amount of health from enemy 
+    public void TakeDamage(float damage)
+    {
+        currentHealth = Mathf.Max(currentHealth - damage, 0f);
+    }
+
+    // Handles the procedure for the enemy dying 
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }

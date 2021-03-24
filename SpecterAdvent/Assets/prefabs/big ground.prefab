@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8178515978994279096}
   - component: {fileID: 8383368987701656231}
   - component: {fileID: 51874889813615226}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6226427043180001298}
   - component: {fileID: 5483033029115024886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big ground tile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5284691012116611273}
   - component: {fileID: 3276076601572932333}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: big ground tile (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,3560 @@
+fileFormatVersion: 2
+guid: 76f4f8b5a91212f4199e7ff6b2f259b6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2084082351907057760
+    second: Mega Man Xtreme 2 - X_0
+  - first:
+      213: 2261676639223295417
+    second: Mega Man Xtreme 2 - X_1
+  - first:
+      213: -4573081406939909131
+    second: Mega Man Xtreme 2 - X_2
+  - first:
+      213: -1750246549061403531
+    second: Mega Man Xtreme 2 - X_3
+  - first:
+      213: 1212319468876995219
+    second: Mega Man Xtreme 2 - X_4
+  - first:
+      213: -1897446602203824283
+    second: Mega Man Xtreme 2 - X_5
+  - first:
+      213: -4893909578578969798
+    second: Mega Man Xtreme 2 - X_6
+  - first:
+      213: -2084319911575873252
+    second: Mega Man Xtreme 2 - X_7
+  - first:
+      213: -5041763666957583299
+    second: Mega Man Xtreme 2 - X_8
+  - first:
+      213: 870453532407290745
+    second: Mega Man Xtreme 2 - X_9
+  - first:
+      213: 627030625904897192
+    second: Mega Man Xtreme 2 - X_10
+  - first:
+      213: -8256727926727925054
+    second: Mega Man Xtreme 2 - X_11
+  - first:
+      213: -5187773690696424946
+    second: Mega Man Xtreme 2 - X_12
+  - first:
+      213: -1187189955639051975
+    second: Mega Man Xtreme 2 - X_13
+  - first:
+      213: 8511240058672079858
+    second: Mega Man Xtreme 2 - X_14
+  - first:
+      213: 328416769191119851
+    second: Mega Man Xtreme 2 - X_15
+  - first:
+      213: -2801116317849443614
+    second: Mega Man Xtreme 2 - X_16
+  - first:
+      213: -922281944391824957
+    second: Mega Man Xtreme 2 - X_17
+  - first:
+      213: 4078338721939895971
+    second: Mega Man Xtreme 2 - X_18
+  - first:
+      213: 2945655431860629456
+    second: Mega Man Xtreme 2 - X_19
+  - first:
+      213: -6100769725058282898
+    second: Mega Man Xtreme 2 - X_20
+  - first:
+      213: 8404902627025410424
+    second: Mega Man Xtreme 2 - X_21
+  - first:
+      213: 2767071606830837504
+    second: Mega Man Xtreme 2 - X_22
+  - first:
+      213: 7989703851260253703
+    second: Mega Man Xtreme 2 - X_23
+  - first:
+      213: -1661827091745279759
+    second: Mega Man Xtreme 2 - X_24
+  - first:
+      213: -3995073537836948473
+    second: Mega Man Xtreme 2 - X_25
+  - first:
+      213: 830914511996704965
+    second: Mega Man Xtreme 2 - X_26
+  - first:
+      213: 2239203840597309786
+    second: Mega Man Xtreme 2 - X_27
+  - first:
+      213: 1621027053142366143
+    second: Mega Man Xtreme 2 - X_28
+  - first:
+      213: -2338503962693918876
+    second: Mega Man Xtreme 2 - X_29
+  - first:
+      213: 5618853115517278399
+    second: Mega Man Xtreme 2 - X_30
+  - first:
+      213: -5050268092752377319
+    second: Mega Man Xtreme 2 - X_31
+  - first:
+      213: -2491041027499503699
+    second: Mega Man Xtreme 2 - X_32
+  - first:
+      213: -4966812895212601641
+    second: Mega Man Xtreme 2 - X_33
+  - first:
+      213: 7703171090408298286
+    second: Mega Man Xtreme 2 - X_34
+  - first:
+      213: 1419296803869117648
+    second: Mega Man Xtreme 2 - X_35
+  - first:
+      213: 1627488312893056649
+    second: Mega Man Xtreme 2 - X_36
+  - first:
+      213: 7280987380692864568
+    second: Mega Man Xtreme 2 - X_37
+  - first:
+      213: 3525578712634576572
+    second: Mega Man Xtreme 2 - X_38
+  - first:
+      213: 7555891168909403008
+    second: Mega Man Xtreme 2 - X_39
+  - first:
+      213: -7259266327634483405
+    second: Mega Man Xtreme 2 - X_40
+  - first:
+      213: -5968573523785173191
+    second: Mega Man Xtreme 2 - X_41
+  - first:
+      213: 1640305518975541643
+    second: Mega Man Xtreme 2 - X_42
+  - first:
+      213: 868100547717950001
+    second: Mega Man Xtreme 2 - X_43
+  - first:
+      213: -6427488568441855731
+    second: Mega Man Xtreme 2 - X_44
+  - first:
+      213: 8277196467786373185
+    second: Mega Man Xtreme 2 - X_45
+  - first:
+      213: 5881509994356449352
+    second: Mega Man Xtreme 2 - X_46
+  - first:
+      213: -2749654069525623529
+    second: Mega Man Xtreme 2 - X_47
+  - first:
+      213: 3704185274960469248
+    second: Mega Man Xtreme 2 - X_48
+  - first:
+      213: 8993631921482400703
+    second: Mega Man Xtreme 2 - X_49
+  - first:
+      213: 3733799397916821951
+    second: Mega Man Xtreme 2 - X_50
+  - first:
+      213: -3559858989123693487
+    second: Mega Man Xtreme 2 - X_51
+  - first:
+      213: 4533144576141401193
+    second: Mega Man Xtreme 2 - X_52
+  - first:
+      213: 2997045533444191968
+    second: Mega Man Xtreme 2 - X_53
+  - first:
+      213: 977314788827141151
+    second: Mega Man Xtreme 2 - X_54
+  - first:
+      213: -10317600045332457
+    second: Mega Man Xtreme 2 - X_55
+  - first:
+      213: 9131909580065066700
+    second: Mega Man Xtreme 2 - X_56
+  - first:
+      213: -9050314826274457443
+    second: Mega Man Xtreme 2 - X_57
+  - first:
+      213: 149935243575551312
+    second: Mega Man Xtreme 2 - X_58
+  - first:
+      213: -5834179524051983488
+    second: Mega Man Xtreme 2 - X_59
+  - first:
+      213: -1687230861108312093
+    second: Mega Man Xtreme 2 - X_60
+  - first:
+      213: 8871365513780802851
+    second: Mega Man Xtreme 2 - X_61
+  - first:
+      213: -5225280057500674717
+    second: Mega Man Xtreme 2 - X_62
+  - first:
+      213: -2160880249707961403
+    second: Mega Man Xtreme 2 - X_63
+  - first:
+      213: -2543205102540589457
+    second: Mega Man Xtreme 2 - X_64
+  - first:
+      213: 8760079799895657638
+    second: Mega Man Xtreme 2 - X_65
+  - first:
+      213: -4407363690364465779
+    second: Mega Man Xtreme 2 - X_66
+  - first:
+      213: -946209970420339003
+    second: Mega Man Xtreme 2 - X_67
+  - first:
+      213: 1035354759974943751
+    second: Mega Man Xtreme 2 - X_68
+  - first:
+      213: -2422283582420486874
+    second: Mega Man Xtreme 2 - X_69
+  - first:
+      213: 4936645825402524370
+    second: Mega Man Xtreme 2 - X_70
+  - first:
+      213: -6057884799638290670
+    second: Mega Man Xtreme 2 - X_71
+  - first:
+      213: -7520608182239330996
+    second: Mega Man Xtreme 2 - X_72
+  - first:
+      213: -634777891449925312
+    second: Mega Man Xtreme 2 - X_73
+  - first:
+      213: 5637374197148961941
+    second: Mega Man Xtreme 2 - X_74
+  - first:
+      213: 4904545464982854744
+    second: Mega Man Xtreme 2 - X_75
+  - first:
+      213: 2611499226089796713
+    second: Mega Man Xtreme 2 - X_76
+  - first:
+      213: -9154947187567611501
+    second: Mega Man Xtreme 2 - X_77
+  - first:
+      213: -7416508677404208451
+    second: Mega Man Xtreme 2 - X_78
+  - first:
+      213: -5164930401455975352
+    second: Mega Man Xtreme 2 - X_79
+  - first:
+      213: -8309782224118338102
+    second: Mega Man Xtreme 2 - X_80
+  - first:
+      213: 1710425407076768618
+    second: Mega Man Xtreme 2 - X_81
+  - first:
+      213: 7133357753578828581
+    second: Mega Man Xtreme 2 - X_82
+  - first:
+      213: 3882661710651770274
+    second: Mega Man Xtreme 2 - X_83
+  - first:
+      213: 5391518423918598578
+    second: Mega Man Xtreme 2 - X_84
+  - first:
+      213: 886602317540001148
+    second: Mega Man Xtreme 2 - X_85
+  - first:
+      213: 6903551485579251278
+    second: Mega Man Xtreme 2 - X_86
+  - first:
+      213: -7045858808333659185
+    second: Mega Man Xtreme 2 - X_87
+  - first:
+      213: -2072500534048963044
+    second: Mega Man Xtreme 2 - X_88
+  - first:
+      213: 4808851643535104261
+    second: Mega Man Xtreme 2 - X_89
+  - first:
+      213: 4707421699121566043
+    second: Mega Man Xtreme 2 - X_90
+  - first:
+      213: 6499666461363256490
+    second: Mega Man Xtreme 2 - X_91
+  - first:
+      213: -1051867422876349887
+    second: Mega Man Xtreme 2 - X_92
+  - first:
+      213: 6835283621802675294
+    second: Mega Man Xtreme 2 - X_93
+  - first:
+      213: 7686803219187612473
+    second: Mega Man Xtreme 2 - X_94
+  - first:
+      213: -9183303637704618097
+    second: Mega Man Xtreme 2 - X_95
+  - first:
+      213: -7064855342955508351
+    second: Mega Man Xtreme 2 - X_96
+  - first:
+      213: 4237886383872593628
+    second: Mega Man Xtreme 2 - X_97
+  - first:
+      213: 4004858070098199442
+    second: Mega Man Xtreme 2 - X_98
+  - first:
+      213: -5890085436413390712
+    second: Mega Man Xtreme 2 - X_99
+  - first:
+      213: 8204857875638654979
+    second: Mega Man Xtreme 2 - X_100
+  - first:
+      213: -588054958334140469
+    second: Mega Man Xtreme 2 - X_101
+  - first:
+      213: -5780226337885298262
+    second: Mega Man Xtreme 2 - X_102
+  - first:
+      213: 4063430847819011502
+    second: Mega Man Xtreme 2 - X_103
+  - first:
+      213: 8047387253270340546
+    second: Mega Man Xtreme 2 - X_104
+  - first:
+      213: 2799821730195256771
+    second: Mega Man Xtreme 2 - X_105
+  - first:
+      213: 6026230333043369379
+    second: Mega Man Xtreme 2 - X_106
+  - first:
+      213: 4689023161520496144
+    second: Mega Man Xtreme 2 - X_107
+  - first:
+      213: 6480225857683751252
+    second: Mega Man Xtreme 2 - X_108
+  - first:
+      213: 1977137664765447925
+    second: Mega Man Xtreme 2 - X_109
+  - first:
+      213: 5238836066952339305
+    second: Mega Man Xtreme 2 - X_110
+  - first:
+      213: 8542884087439034916
+    second: Mega Man Xtreme 2 - X_111
+  - first:
+      213: -780314237356841057
+    second: Mega Man Xtreme 2 - X_112
+  - first:
+      213: -3618095718930211555
+    second: Mega Man Xtreme 2 - X_113
+  - first:
+      213: -5403026596606796642
+    second: Mega Man Xtreme 2 - X_114
+  - first:
+      213: -2726999383782709428
+    second: Mega Man Xtreme 2 - X_115
+  - first:
+      213: -6782578919971944522
+    second: Mega Man Xtreme 2 - X_116
+  - first:
+      213: 1168905396745964239
+    second: Mega Man Xtreme 2 - X_117
+  - first:
+      213: -5944261472176661282
+    second: Mega Man Xtreme 2 - X_118
+  - first:
+      213: 8562896831534371856
+    second: Mega Man Xtreme 2 - X_119
+  - first:
+      213: -2011865718661988425
+    second: Mega Man Xtreme 2 - X_120
+  - first:
+      213: -4550977745091523043
+    second: Mega Man Xtreme 2 - X_121
+  - first:
+      213: 4701559017994241506
+    second: Mega Man Xtreme 2 - X_122
+  - first:
+      213: -4827810664146698397
+    second: Mega Man Xtreme 2 - X_123
+  - first:
+      213: -1137482704244077088
+    second: Mega Man Xtreme 2 - X_124
+  - first:
+      213: 6290549055389951856
+    second: Mega Man Xtreme 2 - X_125
+  - first:
+      213: -1373832202983616621
+    second: Mega Man Xtreme 2 - X_126
+  - first:
+      213: 7173527091645355741
+    second: Mega Man Xtreme 2 - X_127
+  - first:
+      213: 5085107061896293917
+    second: Mega Man Xtreme 2 - X_128
+  - first:
+      213: -7005274566895700316
+    second: Mega Man Xtreme 2 - X_129
+  - first:
+      213: 1088647041017997167
+    second: Mega Man Xtreme 2 - X_130
+  - first:
+      213: -3830476076838165996
+    second: Mega Man Xtreme 2 - X_131
+  - first:
+      213: -4969077195360910009
+    second: Mega Man Xtreme 2 - X_132
+  - first:
+      213: -7463832564668264909
+    second: Mega Man Xtreme 2 - X_133
+  - first:
+      213: -7224918514168576578
+    second: Mega Man Xtreme 2 - X_134
+  - first:
+      213: -6943554828843835380
+    second: Mega Man Xtreme 2 - X_135
+  - first:
+      213: -7597828996482308147
+    second: Mega Man Xtreme 2 - X_136
+  - first:
+      213: 6584525520989681149
+    second: Mega Man Xtreme 2 - X_137
+  - first:
+      213: 3429510976232871430
+    second: Mega Man Xtreme 2 - X_138
+  - first:
+      213: -7728960967986095765
+    second: Mega Man Xtreme 2 - X_139
+  - first:
+      213: 8660401885401116403
+    second: Mega Man Xtreme 2 - X_140
+  - first:
+      213: -7446374407797117270
+    second: Mega Man Xtreme 2 - X_141
+  - first:
+      213: 3653496774774292538
+    second: Mega Man Xtreme 2 - X_142
+  - first:
+      213: -2932521763386981778
+    second: Mega Man Xtreme 2 - X_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 367
+        width: 4
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af4be3942ad313e0800000000000000
+      internalID: -2084082351907057760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 367
+        width: 13
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd24b5abe6136f10800000000000000
+      internalID: 2261676639223295417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 367
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3376a80b62980c0800000000000000
+      internalID: -4573081406939909131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 367
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c77dd6900e5b7e0800000000000000
+      internalID: -1750246549061403531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 367
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a14b0422603d010800000000000000
+      internalID: 1212319468876995219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 367
+        width: 38
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f7e5f4e5aeaa5e0800000000000000
+      internalID: -1897446602203824283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 367
+        width: 38
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b3be5da27551cb0800000000000000
+      internalID: -4893909578578969798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 367
+        width: 30
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c191f3865120313e0800000000000000
+      internalID: -2084319911575873252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_8
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 369
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb58548ae080ab0800000000000000
+      internalID: -5041763666957583299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 369
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bde9830e8741c00800000000000000
+      internalID: 870453532407290745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 369
+        width: 21
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac2a583809a3b800800000000000000
+      internalID: 627030625904897192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 369
+        width: 15
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a55852b53a6d80800000000000000
+      internalID: -8256727926727925054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 369
+        width: 45
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e022ce670535108b0800000000000000
+      internalID: -5187773690696424946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 369
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939f83d7601468fe0800000000000000
+      internalID: -1187189955639051975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_14
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 369
+        width: 29
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f369372dbffd1670800000000000000
+      internalID: 8511240058672079858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 369
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb0be1cf45ce8400800000000000000
+      internalID: 328416769191119851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 369
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a804cc8f6029d0800000000000000
+      internalID: -2801116317849443614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_17
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 369
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9c4c145756333f0800000000000000
+      internalID: -922281944391824957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 369
+        width: 21
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6b2faa57b299830800000000000000
+      internalID: 4078338721939895971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 336
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfa0ce220211e820800000000000000
+      internalID: 2945655431860629456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 336
+        width: 19
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a81712246b55ba0800000000000000
+      internalID: -6100769725058282898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_21
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 336
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879d89f786634a470800000000000000
+      internalID: 8404902627025410424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 336
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fa83147fc966620800000000000000
+      internalID: 2767071606830837504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 336
+        width: 21
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70610fa425121ee60800000000000000
+      internalID: 7989703851260253703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_24
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 336
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0f666901100f8e0800000000000000
+      internalID: -1661827091745279759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 336
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7046aadb8c5ae88c0800000000000000
+      internalID: -3995073537836948473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 336
+        width: 29
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8d746a850088b00800000000000000
+      internalID: 830914511996704965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_27
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 336
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a593e7a7700431f10800000000000000
+      internalID: 2239203840597309786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_28
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 336
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb759d9248b0f7610800000000000000
+      internalID: 1621027053142366143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 336
+        width: 33
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f19cd2907fb8fd0800000000000000
+      internalID: -2338503962693918876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_30
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 336
+        width: 31
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8118b732d2afd40800000000000000
+      internalID: 5618853115517278399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_31
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 336
+        width: 22
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a41075de7d9e9b0800000000000000
+      internalID: -5050268092752377319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_32
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 336
+        width: 31
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc7f2326b0e6dd0800000000000000
+      internalID: -2491041027499503699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_33
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 336
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7def503bcf5521bb0800000000000000
+      internalID: -4966812895212601641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 336
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2758d72b4927ea60800000000000000
+      internalID: 7703171090408298286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_35
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 336
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc47716cea52b310800000000000000
+      internalID: 1419296803869117648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_36
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 336
+        width: 20
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986271e6ffff59610800000000000000
+      internalID: 1627488312893056649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_37
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 336
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ecc4842734b0560800000000000000
+      internalID: 7280987380692864568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_38
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 336
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe434ae82f5de030800000000000000
+      internalID: 3525578712634576572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_39
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 298
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0832b5c3cfaebd860800000000000000
+      internalID: 7555891168909403008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_40
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 298
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337646b7cb7e14b90800000000000000
+      internalID: -7259266327634483405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_41
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 298
+        width: 21
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937bbf2c00e5b2da0800000000000000
+      internalID: -5968573523785173191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_42
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 298
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8166a5cd2983c610800000000000000
+      internalID: 1640305518975541643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_43
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 298
+        width: 24
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aec0849dc1c0c00800000000000000
+      internalID: 868100547717950001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 298
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01a3288339fcc6a0800000000000000
+      internalID: -6427488568441855731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_45
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 298
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148568e35528ed270800000000000000
+      internalID: 8277196467786373185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 298
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840a684ad225f9150800000000000000
+      internalID: 5881509994356449352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_47
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 298
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dc7ba213447d9d0800000000000000
+      internalID: -2749654069525623529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_48
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 298
+        width: 20
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d5048c1e8e76330800000000000000
+      internalID: 3704185274960469248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_49
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 298
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb38290159ccfcc70800000000000000
+      internalID: 8993631921482400703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 298
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9466715ce11d330800000000000000
+      internalID: 3733799397916821951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_51
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 298
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1541dce3c17d89ec0800000000000000
+      internalID: -3559858989123693487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 298
+        width: 24
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c956079f6f8ee30800000000000000
+      internalID: 4533144576141401193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_53
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 298
+        width: 19
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6bc9c9805a79920800000000000000
+      internalID: 2997045533444191968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 267
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1417c55f9e109d00800000000000000
+      internalID: 977314788827141151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_55
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 267
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7180d5a82385bdff0800000000000000
+      internalID: -10317600045332457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_56
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 267
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccec3c0516f0bbe70800000000000000
+      internalID: 9131909580065066700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 267
+        width: 26
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98b57abd92d66280800000000000000
+      internalID: -9050314826274457443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_58
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 267
+        width: 23
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055e1a44f4da41200800000000000000
+      internalID: 149935243575551312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_59
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 267
+        width: 26
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083260932a4d80fa0800000000000000
+      internalID: -5834179524051983488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_60
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 267
+        width: 27
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7009d9870c598e0800000000000000
+      internalID: -1687230861108312093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_61
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 267
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3253e89aeeb6d1b70800000000000000
+      internalID: 8871365513780802851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_62
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 267
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3655db0f8731c77b0800000000000000
+      internalID: -5225280057500674717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_63
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 267
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3eff99cd20302e0800000000000000
+      internalID: -2160880249707961403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 267
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f667b180f68b4bcd0800000000000000
+      internalID: -2543205102540589457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_65
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 267
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac0bd44a2e029970800000000000000
+      internalID: 8760079799895657638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_66
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 267
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d0fd72316e5d2c0800000000000000
+      internalID: -4407363690364465779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_67
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 267
+        width: 35
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cea92e8b036ed2f0800000000000000
+      internalID: -946209970420339003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_68
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 267
+        width: 33
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cf0dc2ba15e5e00800000000000000
+      internalID: 1035354759974943751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_69
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 267
+        width: 27
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625f0946ae1526ed0800000000000000
+      internalID: -2422283582420486874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_70
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 267
+        width: 29
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25805093d728440800000000000000
+      internalID: 4936645825402524370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_71
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 267
+        width: 27
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f325beed11eeba0800000000000000
+      internalID: -6057884799638290670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_72
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 232
+        width: 22
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d7ab244be61a790800000000000000
+      internalID: -7520608182239330996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_73
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 232
+        width: 21
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0411bd4fed0d037f0800000000000000
+      internalID: -634777891449925312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_74
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 232
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c4407d6f9fb3e40800000000000000
+      internalID: 5637374197148961941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_75
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 232
+        width: 25
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c5e017d12701440800000000000000
+      internalID: 4904545464982854744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_76
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 231
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9643a46b5b8ed3420800000000000000
+      internalID: 2611499226089796713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_77
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 231
+        width: 26
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3913293b90813f080800000000000000
+      internalID: -9154947187567611501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 231
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db258b9f6a4431990800000000000000
+      internalID: -7416508677404208451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_79
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 231
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844d9933a2b7258b0800000000000000
+      internalID: -5164930401455975352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_80
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 231
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd22922819bdac80800000000000000
+      internalID: -8309782224118338102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_81
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 231
+        width: 25
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b1d9378d6acb710800000000000000
+      internalID: 1710425407076768618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_82
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 231
+        width: 26
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52338dd2517cef260800000000000000
+      internalID: 7133357753578828581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_83
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 231
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5c86e214cf1e530800000000000000
+      internalID: 3882661710651770274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_84
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 180
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b954a9e07582da40800000000000000
+      internalID: 5391518423918598578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_85
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 180
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7582024c18dd4c00800000000000000
+      internalID: 886602317540001148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_86
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 180
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e4292ef775ecf50800000000000000
+      internalID: 6903551485579251278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_87
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 180
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc317bf8eb4183e90800000000000000
+      internalID: -7045858808333659185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16443faebffc33e0800000000000000
+      internalID: -2072500534048963044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 180
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509967667197cb240800000000000000
+      internalID: 4808851643535104261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_90
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 180
+        width: 20
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b515b18281f145140800000000000000
+      internalID: 4707421699121566043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_91
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 180
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacb31cb534733a50800000000000000
+      internalID: 6499666461363256490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_92
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 180
+        width: 21
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a46a4e6240761f0800000000000000
+      internalID: -1051867422876349887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_93
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 180
+        width: 23
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c08983d3ecbde50800000000000000
+      internalID: 6835283621802675294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_94
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 180
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bb10a2dc20daa60800000000000000
+      internalID: 7686803219187612473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_95
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 181
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f401a2ff95e8080800000000000000
+      internalID: -9183303637704618097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_96
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 137
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18dcd9d2f7794fd90800000000000000
+      internalID: -7064855342955508351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_97
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 137
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdec03d763fffca30800000000000000
+      internalID: 4237886383872593628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_98
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 137
+        width: 35
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2934f04323d149730800000000000000
+      internalID: 4004858070098199442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_99
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 137
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880d0e9a086324ea0800000000000000
+      internalID: -5890085436413390712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_100
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 137
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308120644c28dd170800000000000000
+      internalID: 8204857875638654979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_101
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 137
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf161c812fc6d7f0800000000000000
+      internalID: -588054958334140469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_102
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 137
+        width: 19
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa16df845c288cfa0800000000000000
+      internalID: -5780226337885298262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_103
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 137
+        width: 21
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5dd9db3d4346830800000000000000
+      internalID: 4063430847819011502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_104
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 137
+        width: 37
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c36f29e1101eaf60800000000000000
+      internalID: 8047387253270340546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_105
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 137
+        width: 28
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c535be8707fad620800000000000000
+      internalID: 2799821730195256771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_106
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 137
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5ebbf3f8871a350800000000000000
+      internalID: 6026230333043369379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_107
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 137
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e120ec8b1c21140800000000000000
+      internalID: 4689023161520496144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_108
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 137
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4518a8775136ee950800000000000000
+      internalID: 6480225857683751252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_109
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 137
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fec3641b34307b10800000000000000
+      internalID: 1977137664765447925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_110
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 137
+        width: 23
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fd23775a514b840800000000000000
+      internalID: 5238836066952339305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_111
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 137
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a042db0db6e8670800000000000000
+      internalID: 8542884087439034916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_112
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 137
+        width: 12
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f976a2dd554cb25f0800000000000000
+      internalID: -780314237356841057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_113
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 137
+        width: 4
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d9dc5fc11f9cdc0800000000000000
+      internalID: -3618095718930211555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_114
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c9345dfe79405b0800000000000000
+      internalID: -5403026596606796642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_115
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c472cea3280c72ad0800000000000000
+      internalID: -2726999383782709428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_116
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 106
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7050e68607fd1a0800000000000000
+      internalID: -6782578919971944522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_117
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 116
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca8415e349c83010800000000000000
+      internalID: 1168905396745964239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_118
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 114
+        width: 16
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc9ed26fadb18da0800000000000000
+      internalID: -5944261472176661282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 115
+        width: 12
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0149ce3dc4585d670800000000000000
+      internalID: 8562896831534371856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_120
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 115
+        width: 11
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfbd57c9ca6414e0800000000000000
+      internalID: -2011865718661988425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_121
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 113
+        width: 15
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e8c1b5adda7d0c0800000000000000
+      internalID: -4550977745091523043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_122
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 109
+        width: 22
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5c416540b4f3140800000000000000
+      internalID: 4701559017994241506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_123
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 109
+        width: 18
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f71b0a7cb200db0800000000000000
+      internalID: -4827810664146698397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_124
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 112
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed8163d189d630f0800000000000000
+      internalID: -1137482704244077088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_125
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 108
+        width: 23
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077efa089058c4750800000000000000
+      internalID: 6290549055389951856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_126
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 109
+        width: 28
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f4b28e3ea2fece0800000000000000
+      internalID: -1373832202983616621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_127
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 112
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6992402ec7d8360800000000000000
+      internalID: 7173527091645355741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_128
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 113
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ea8254eede19640800000000000000
+      internalID: 5085107061896293917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_129
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 115
+        width: 12
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a67a1e95e348ce90800000000000000
+      internalID: -7005274566895700316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_130
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 112
+        width: 20
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6768a547b6ab1f00800000000000000
+      internalID: 1088647041017997167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_131
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 111
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412ed678d4a67dac0800000000000000
+      internalID: -3830476076838165996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_132
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 111
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745c40d3e9a4a0bb0800000000000000
+      internalID: -4969077195360910009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_133
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 114
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e84f7d3d32b6890800000000000000
+      internalID: -7463832564668264909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_134
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 114
+        width: 15
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c6dff3eeebbb90800000000000000
+      internalID: -7224918514168576578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_135
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 111
+        width: 20
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a054fba983af90800000000000000
+      internalID: -6943554828843835380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_136
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 113
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7628068c61f8690800000000000000
+      internalID: -7597828996482308147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_137
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 112
+        width: 28
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df57515331fe06b50800000000000000
+      internalID: 6584525520989681149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_138
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 110
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606d9a30012189f20800000000000000
+      internalID: 3429510976232871430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_139
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 110
+        width: 24
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69545c03f63db490800000000000000
+      internalID: -7728960967986095765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_140
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 114
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee47741adef2870800000000000000
+      internalID: 8660401885401116403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_141
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 115
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae61bebde929a890800000000000000
+      internalID: -7446374407797117270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_142
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 114
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a300578a5f3d3b230800000000000000
+      internalID: 3653496774774292538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mega Man Xtreme 2 - X_143
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 113
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62873d4ef69d47d0800000000000000
+      internalID: -2932521763386981778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
