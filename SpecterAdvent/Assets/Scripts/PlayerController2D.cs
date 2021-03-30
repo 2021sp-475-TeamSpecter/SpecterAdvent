@@ -11,6 +11,10 @@ public class PlayerController2D : MonoBehaviour
 	public LayerMask ground;
     public bool jumpNum;
     public float jumpVel = 100f;
+    public float damage = 5; 
+
+    //GameObject X, Zero;
+    //int CharacterSelect;
 
 
     [SerializeField]
@@ -37,7 +41,15 @@ public class PlayerController2D : MonoBehaviour
     void Start()
     {
 		currHealth = maxHealth; 
-		healthBar.SetMaxHealth((int)maxHealth);
+		//healthBar.SetMaxHealth((int)maxHealth);
+
+        //CharacterSelect = 1;
+
+       // X = GameObject.Find("X");
+       // Zero = GameObject.Find("Zero");
+
+        //X.SetActive(true);
+        //Zero.SetActive(false);
 
     	animator = GetComponent<Animator>();
     	rb2d = GetComponent<Rigidbody2D>();
@@ -54,7 +66,7 @@ public class PlayerController2D : MonoBehaviour
     {
 
         // Update healthbar 
-        healthBar.SetHealth((int)currHealth);
+        //healthBar.SetHealth((int)currHealth);
 
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f), 
             new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), ground);
@@ -136,6 +148,7 @@ public class PlayerController2D : MonoBehaviour
             //rb2d.velocity = new Vector2(rb2d.velocity.x, 3);
 
         }
+        
     }
 
     void AttackReset()

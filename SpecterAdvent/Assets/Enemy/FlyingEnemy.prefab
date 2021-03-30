@@ -335,12 +335,11 @@ GameObject:
   - component: {fileID: 2907170995818554222}
   - component: {fileID: 3741777512456297738}
   - component: {fileID: 3741777513722190050}
-  - component: {fileID: 648176498}
   - component: {fileID: 648176499}
-  - component: {fileID: 648176500}
   - component: {fileID: 648176505}
+  - component: {fileID: 173975560}
   m_Layer: 0
-  m_Name: MeleeEnemy
+  m_Name: FlyingEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,8 +373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fa64a31b136a1997ad4f0114a7b5278, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 100
+  maxHealth: 50
+  currentHealth: 50
   healthBar: {fileID: 6595347135133994659}
   decreaseTime: 1
   prevTime: 0
@@ -392,7 +391,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 1.5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -416,42 +415,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.5
---- !u!114 &648176498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3741777512456297734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 2
-  radius: 2.5
-  height: 2
-  repathRate: 0.5
-  canSearch: 1
-  canMove: 1
-  maxSpeed: 1
-  gravity: {x: NaN, y: NaN, z: NaN}
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  centerOffsetCompatibility: NaN
-  orientation: 1
-  enableRotation: 0
-  targetCompatibility: {fileID: 0}
-  maxAcceleration: -2.5
-  rotationSpeed: 360
-  slowdownDistance: 0.6
-  pickNextWaypointDist: 0.4
-  endReachedDistance: 0.5
-  alwaysDrawGizmos: 1
-  slowWhenNotFacingTarget: 1
-  whenCloseToDestination: 0
-  constrainInsideGraph: 0
 --- !u!114 &648176499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,20 +443,6 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
---- !u!114 &648176500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3741777512456297734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9679e68a0f1144e79c664d9a11ca121, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 1
-  target: {fileID: 0}
 --- !u!114 &648176505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,10 +458,24 @@ MonoBehaviour:
   attackDamage: 5
   attackDistance: 0.4
   attackSpeed: 2
-  player: {fileID: 0}
-  playerCollider: {fileID: 0}
-  playerController: {fileID: 0}
+  playerManager: {fileID: 0}
   collider: {fileID: 0}
+--- !u!114 &173975560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741777512456297734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5579153e138e2b70b41c18a83e32cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 250
+  maxSpeed: 5
+  enemyGFX: {fileID: 3741777513960840894}
+  nextWaypointDistance: 1
 --- !u!1 &3741777513960840889
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +502,7 @@ Transform:
   m_GameObject: {fileID: 3741777513960840889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 15, y: 15, z: 1}
   m_Children: []
   m_Father: {fileID: 2342734510951909391}
   m_RootOrder: 1
@@ -583,7 +546,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ce9629bcd27d94c83a45d22b9b299fdf, type: 3}
+  m_Sprite: {fileID: 7855910036223631117, guid: b88447c3d12f2674193dd1c44517bbbd,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

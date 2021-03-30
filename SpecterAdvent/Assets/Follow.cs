@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Follow : MonoBehaviour
 {
-	[SerializeField]
-	GameObject Player;
-    // Start is called before the first frame update
+	public PlayerManager playerManager; 
+
     void Start()
     {
-        
+        playerManager = GameObject.Find("Player").GetComponent<PlayerManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-      transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, -7);  
+        Vector3 playerPos = playerManager.GetPosition();
+        transform.position = new Vector3(playerPos.x, playerPos.y, -7);
     }
 }

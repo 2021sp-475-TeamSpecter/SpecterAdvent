@@ -1,28 +1,55 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BlastControl : MonoBehaviour
 {
-	Rigidbody2D rb2d;
 
-    // Start is called before the first frame update
-    void Start()
+    public float damage = 5; 
+
+    public void Shooter(bool isTurned)
     {
-    	rb2d = GetComponent<Rigidbody2D>();
-    	Invoke("KillCommand", .4f);
+        Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
+
+        if (isTurned)
+        {
+            rb2d.velocity = new Vector2(-3,0);
+            transform.localScale = new Vector3(-1,1,1);
+        }
+        else
+        {
+            rb2d.velocity = new Vector2(3,0);
+            transform.localScale = new Vector3(1,1,1);
+        }
+
+        Destroy(gameObject, 2);
+    	
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2D(Collider2D col)
     {
-    	rb2d.AddForce(new Vector2(-3,0));
+        // Collisions with the Enemy 
+        if(col.transform.CompareTag("Enemy"))
+        {
+            col.GetComponent<EnemyController>().TakeDamage(damage);
+            //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            //Destroy(effect, 1f);
+            Destroy(gameObject);
+        }
         
+        // Collide with walls and obstacles
+        else if (col.gameObject.layer == LayerMask.NameToLayer("Ground")) 
+        {
+            //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+            //Destroy(effect, 1f);
+            Destroy(gameObject);
+        }
     }
 
-    private void KillCommand()
+
+    public void SetBulletDamage(float newDmg)
     {
-    	Destroy(gameObject);
+        damage = newDmg;
     }
 }

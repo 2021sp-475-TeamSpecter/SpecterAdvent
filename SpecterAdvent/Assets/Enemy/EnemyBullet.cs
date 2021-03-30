@@ -12,11 +12,14 @@ public class EnemyBullet : MonoBehaviour
     private float timeCreated;
     private float maxLifetime = 5f;
 
+    public PlayerManager playerManager; 
+
     void Start()
     {
         collider = GetComponent<Collider2D>();
         timeCreated = Time.time;
         maxLifetime += timeCreated;
+        playerManager = GameObject.Find("Player").GetComponent<PlayerManager>();
     }
 
     void Update()
@@ -30,7 +33,7 @@ public class EnemyBullet : MonoBehaviour
         // Collisions with the Player 
         if(col.transform.CompareTag("Player"))
         {
-            col.gameObject.GetComponent<PlayerController2D>().TakeDamage(dmg);
+            playerManager.TakeDamage(dmg);
             //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
             //Destroy(effect, 1f);
             Destroy(gameObject);

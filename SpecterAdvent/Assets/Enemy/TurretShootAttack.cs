@@ -12,15 +12,16 @@ public class TurretShootAttack : MonoBehaviour
     public float attackDamage = 10;  
     public float cannonTurnSpeed = 2;
     public float sightRange = 1;
-    public GameObject player;
     public Transform cannonPivot; 
+
+    public PlayerManager playerManager; 
 
     LayerMask mask; 
     float lastAttack; 
 
     void Start()
     {
-        player = GameObject.Find("Player");
+        playerManager = GameObject.Find("Player").GetComponent<PlayerManager>();
         // Enemy can only see players and obstacles
         // Things like bullets/enemies are ignored 
         mask = LayerMask.GetMask("Player") | LayerMask.GetMask("Ground");
@@ -29,7 +30,10 @@ public class TurretShootAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 directionToPlayer = player.transform.position - transform.position;
+        // Vector3 directionToPlayer = player.transform.position - transform.position;
+        Vector3 directionToPlayer = playerManager.GetPosition() - transform.position; 
+
+        // Determine if enemy can see player or obstacle 
         RaycastHit2D hit = Physics2D.Raycast(
             transform.position + directionToPlayer.normalized, 
             directionToPlayer, 
@@ -39,7 +43,7 @@ public class TurretShootAttack : MonoBehaviour
         
         // if turret can see player
         if (hit.collider != null
-            && hit.collider.gameObject.name == player.name)
+            && hit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             float angle = Vector3.Angle(directionToPlayer, transform.right);
             // clamping to interval [0, 180]

@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 78155e2713def0c46b8a1f039128c308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2049916197237291506
+    second: Final Sigma_0
+  - first:
+      213: 4131112562894026657
+    second: Final Sigma_1
+  - first:
+      213: -1807825111974883727
+    second: Final Sigma_2
+  - first:
+      213: 1666636425342159308
+    second: Final Sigma_3
+  - first:
+      213: 2125798310896077970
+    second: Final Sigma_4
+  - first:
+      213: 4754616190120913611
+    second: Final Sigma_5
+  - first:
+      213: 1873912110316014889
+    second: Final Sigma_6
+  - first:
+      213: 8052085248690185818
+    second: Final Sigma_7
+  - first:
+      213: 669397442035269969
+    second: Final Sigma_8
+  - first:
+      213: -2964490766939020588
+    second: Final Sigma_9
+  - first:
+      213: 4600488656422221353
+    second: Final Sigma_10
+  - first:
+      213: -6397995900832613229
+    second: Final Sigma_11
+  - first:
+      213: -3720745648380158524
+    second: Final Sigma_12
+  - first:
+      213: -8320725373143362448
+    second: Final Sigma_13
+  - first:
+      213: 2853411965115787954
+    second: Final Sigma_14
+  - first:
+      213: -6452714081195890426
+    second: Final Sigma_15
+  - first:
+      213: 2243690766111797230
+    second: Final Sigma_16
+  - first:
+      213: -4672261006720084815
+    second: Final Sigma_17
+  - first:
+      213: -6931923407575956398
+    second: Final Sigma_18
+  - first:
+      213: 1398694392568394194
+    second: Final Sigma_19
+  - first:
+      213: 438976165805632653
+    second: Final Sigma_20
+  - first:
+      213: 863538155080820245
+    second: Final Sigma_21
+  - first:
+      213: -2179242384428565855
+    second: Final Sigma_22
+  - first:
+      213: -3297915090030569346
+    second: Final Sigma_23
+  - first:
+      213: 8833393132786249385
+    second: Final Sigma_24
+  - first:
+      213: 3652890347129300096
+    second: Final Sigma_25
+  - first:
+      213: 800039952375598437
+    second: Final Sigma_26
+  - first:
+      213: -4354061251513092891
+    second: Final Sigma_27
+  - first:
+      213: 8312466634172384690
+    second: Final Sigma_28
+  - first:
+      213: -2399600443436344847
+    second: Final Sigma_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final Sigma_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 46
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e060a5c541c3d83e0800000000000000
+      internalID: -2049916197237291506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 46
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7b3760df8a45930800000000000000
+      internalID: 4131112562894026657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 46
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec4b093a059e6e0800000000000000
+      internalID: -1807825111974883727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 46
+        width: 24
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc90f36aff4112710800000000000000
+      internalID: 1666636425342159308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 46
+        width: 24
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c06110d4a508d10800000000000000
+      internalID: 2125798310896077970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 46
+        width: 24
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca6a7fdb3acbf140800000000000000
+      internalID: 4754616190120913611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_6
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 46
+        width: 26
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d40bbc229710a10800000000000000
+      internalID: 1873912110316014889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 71
+        width: 10
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5667553fd0cebf60800000000000000
+      internalID: 8052085248690185818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_8
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 60
+        width: 13
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151411a4d6d2a4900800000000000000
+      internalID: 669397442035269969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 46
+        width: 16
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2aca0aa530cd6d0800000000000000
+      internalID: -2964490766939020588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 52
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b24ffe0838df30800000000000000
+      internalID: 4600488656422221353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 52
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c777050a0c537a0800000000000000
+      internalID: -6397995900832613229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 53
+        width: 16
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd58b0db814d5cc0800000000000000
+      internalID: -3720745648380158524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 24
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074d534bb58d68c80800000000000000
+      internalID: -8320725373143362448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 21
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba6392701b599720800000000000000
+      internalID: 2853411965115787954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 22
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60968292bba5376a0800000000000000
+      internalID: -6452714081195890426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_16
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 20
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefeaeb3dd0332f10800000000000000
+      internalID: 2243690766111797230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b45a8c7e5bc82fb0800000000000000
+      internalID: -4672261006720084815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2544831436cdccf90800000000000000
+      internalID: -6931923407575956398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 22
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1be52b329296310800000000000000
+      internalID: 1398694392568394194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 21
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c25bb3f7e871600800000000000000
+      internalID: 438976165805632653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 21
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516a6977067ebfb00800000000000000
+      internalID: 863538155080820245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_22
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 21
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaf8a4f896c1c1e0800000000000000
+      internalID: -2179242384428565855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_23
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78d35fd2b37b32d0800000000000000
+      internalID: -3297915090030569346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 22
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae6911c044869a70800000000000000
+      internalID: 8833393132786249385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_25
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 21
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0846818ba6ca1b230800000000000000
+      internalID: 3652890347129300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_26
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 11
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dc77f09105a1b00800000000000000
+      internalID: 800039952375598437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4f44d4c544393c0800000000000000
+      internalID: -4354061251513092891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 18
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5c129cc50db5370800000000000000
+      internalID: 8312466634172384690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final Sigma_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 20
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f95b1e3c18e2bed0800000000000000
+      internalID: -2399600443436344847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

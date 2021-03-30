@@ -11,6 +11,7 @@ public class XController : MonoBehaviour
 	public LayerMask ground;
     public bool jumpNum;
     public float jumpVel = 100f;
+    public float damage = 5; 
     Object blastLock;
 
 
@@ -23,10 +24,16 @@ public class XController : MonoBehaviour
     [SerializeField]
     Transform groundChecker;
 
+    [SerializeField]
+    Transform XBarrel;
+
+
     //[SerializeField]
     //GameObject hitBox;
 
     bool isAttacking = false;
+
+    bool isTurned;
 
 
 
@@ -37,14 +44,13 @@ public class XController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		//currHealth = maxHealth; 
+		currHealth = maxHealth; 
 		//ealthBar.SetMaxHealth((int)maxHealth);
 
     	animator = GetComponent<Animator>();
     	rb2d = GetComponent<Rigidbody2D>();
     	spriteRenderer = GetComponent<SpriteRenderer>();
     	blastLock = Resources.Load("Blast");
-        //hitBox.SetActive(false);
         
     }
 
@@ -57,15 +63,7 @@ public class XController : MonoBehaviour
 
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f), 
             new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), ground);
-       /* if(Physics2D.Linecast(transform.position, groundChecker.position, 1 << LayerMask.NameToLayer("Ground")))
-        {
-            isGrounded = true;
-        }
-        else
-        {
-            isGrounded = false;
-        }
-        */
+
         if(isGrounded){
             jumpNum = true;
         }
@@ -77,9 +75,9 @@ public class XController : MonoBehaviour
             {
                 animator.Play("Run");
             }
-            //animator.Play("Walking");
-            //spriteRenderer.flipX = false;
+
             transform.localScale = new Vector3(2,2,1);
+            isTurned = false;
         }
         else if(Input.GetKey("a") || Input.GetKey("left"))
         {
@@ -88,9 +86,8 @@ public class XController : MonoBehaviour
             {
                 animator.Play("Run");
             }
-            //animator.Play("Walking");
-            //spriteRenderer.flipX = true;
             transform.localScale = new Vector3(-2,2,1);
+            isTurned = true;
         }
         else if(Input.GetKey("p") && !isAttacking)
         {
@@ -99,10 +96,10 @@ public class XController : MonoBehaviour
             animator.Play("XFire");
 
             GameObject blast = (GameObject)Instantiate(blastLock);
-            blast.transform.position = new Vector3(transform.position.x + .4f, transform.position.y + .2f, -1);
-
-            Invoke("AttackReset", .1f);
-            //StartCoroutine(Attacker());
+            blast.GetComponent<BlastControl>().Shooter(isTurned);
+            blast.GetComponent<BlastControl>().SetBulletDamage(damage);
+            blast.transform.position = XBarrel.transform.position;
+            Invoke("AttackReset", .2f);
         }
         else
         {
@@ -155,8 +152,8 @@ public class XController : MonoBehaviour
     }*/
 
 
-	/*public void TakeDamage(float damage){
+	public void TakeDamage(float damage){
 		currHealth = Mathf.Max(currHealth - damage, 0f); 
-	}*/
+	}
 
 }
