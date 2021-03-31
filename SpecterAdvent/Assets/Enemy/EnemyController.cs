@@ -10,9 +10,6 @@ public class EnemyController : MonoBehaviour
     public float maxHealth = 100;
     public float currentHealth = 100;
     public RectTransform healthBar; 
-    // Health decrease over time
-    public float decreaseTime = 1;
-    public float prevTime;
 
     void Start()
     {
