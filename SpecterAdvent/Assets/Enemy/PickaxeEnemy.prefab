@@ -361,6 +361,16 @@ MonoBehaviour:
   maxHealth: 50
   currentHealth: 50
   healthBar: {fileID: 4446894946878473628}
+  healthDropPrefab: {fileID: 1880706305687297602, guid: 890d8d2fba46bd4ceba9b09b0edfddfa,
+    type: 3}
+  amountOfHealth: 5
+  numDrops: 5
+  scaleLow: 1
+  scaleHigh: 3
+  angleLow: 45
+  angleHigh: 135
+  speedLow: 1
+  speedHigh: 3
 --- !u!50 &6186992544931780149
 Rigidbody2D:
   serializedVersion: 4

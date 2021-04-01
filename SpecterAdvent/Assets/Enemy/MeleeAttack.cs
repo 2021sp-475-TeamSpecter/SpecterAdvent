@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static DamageType;
 
 public class MeleeAttack : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class MeleeAttack : MonoBehaviour
         if (isTouching && Time.time > lastAttackTime + attackSpeed)
         {
             // Attack player 
-            playerManager.TakeDamage(attackDamage);
+            playerManager.TakeDamage(attackDamage, DamageType.Melee);
             // Setup cooldown
             lastAttackTime = Time.time;
         }

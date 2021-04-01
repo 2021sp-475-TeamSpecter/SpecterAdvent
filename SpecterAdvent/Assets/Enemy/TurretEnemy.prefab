@@ -599,8 +599,20 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   healthBar: {fileID: 1935970305925202119}
-  decreaseTime: 1
-  prevTime: 0
+  resistances: 0200000001000000
+  percentBlocked:
+  - 0.25
+  - 0.25
+  healthDropPrefab: {fileID: 1880706305687297602, guid: 890d8d2fba46bd4ceba9b09b0edfddfa,
+    type: 3}
+  amountOfHealth: 5
+  numDrops: 7
+  scaleLow: 1
+  scaleHigh: 3
+  angleLow: 45
+  angleHigh: 135
+  speedLow: 1
+  speedHigh: 3
 --- !u!114 &8266327602481697693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,11 +630,11 @@ MonoBehaviour:
   bulletSpawnLocation: {fileID: 7028419163728034236}
   bulletSpeed: 3.5
   attackSpeed: 1.5
-  attackDamage: 5
+  attackDamage: 10
   cannonTurnSpeed: 2
   sightRange: 3
-  player: {fileID: 0}
   cannonPivot: {fileID: 7028419162946275027}
+  playerManager: {fileID: 0}
 --- !u!50 &8266327602481697646
 Rigidbody2D:
   serializedVersion: 4

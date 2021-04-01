@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static DamageType;
 
 public class EnemyBullet : MonoBehaviour
 {
-    public GameObject hitEffect;
+    public ParticleSystem hitEffect;
     public Collider2D collider; 
 
     private float dmg;
@@ -33,19 +34,33 @@ public class EnemyBullet : MonoBehaviour
         // Collisions with the Player 
         if(col.transform.CompareTag("Player"))
         {
-            playerManager.TakeDamage(dmg);
-            //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            //Destroy(effect, 1f);
-            Destroy(gameObject);
+            playerManager.TakeDamage(dmg, DamageType.Projectile);
+            StartCoroutine(Hit());
         }
         
         // Collide with walls and obstacles
         else if (col.gameObject.layer == LayerMask.NameToLayer("Ground")) 
         {
-            //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-            //Destroy(effect, 1f);
-            Destroy(gameObject);
+            StartCoroutine(Hit());
         }
+    }
+
+    IEnumerator Hit()
+    {
+        // disable bullet
+        GetComponent<SpriteRenderer>().enabled = false; // out of sight 
+        GetComponent<Collider2D>().enabled = false; // prevent collisions
+        GetComponent<Rigidbody2D>().velocity = new Vector3(0,0,0);
+        GetComponent<Rigidbody2D>().isKinematic = true; // prevent gravity
+
+        // hit effect
+        hitEffect.Play();
+
+        // Wait for effect to finish
+        yield return new WaitForSeconds(1f);
+
+        // get rid of bullet
+        Destroy(gameObject);
     }
 
     public void setBulletDamage(float newDmg)

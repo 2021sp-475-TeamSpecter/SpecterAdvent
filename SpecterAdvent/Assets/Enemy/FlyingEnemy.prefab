@@ -376,8 +376,16 @@ MonoBehaviour:
   maxHealth: 50
   currentHealth: 50
   healthBar: {fileID: 6595347135133994659}
-  decreaseTime: 1
-  prevTime: 0
+  healthDropPrefab: {fileID: 1880706305687297602, guid: 890d8d2fba46bd4ceba9b09b0edfddfa,
+    type: 3}
+  amountOfHealth: 7
+  numDrops: 2
+  scaleLow: 1
+  scaleHigh: 3
+  angleLow: 45
+  angleHigh: 135
+  speedLow: 1
+  speedHigh: 3
 --- !u!50 &3741777512456297738
 Rigidbody2D:
   serializedVersion: 4
@@ -569,7 +577,7 @@ Animator:
   m_GameObject: {fileID: 3741777513960840889}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2660258a847e9565d8b7769c05e2023f, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
