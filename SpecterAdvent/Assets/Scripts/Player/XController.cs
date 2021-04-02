@@ -61,12 +61,21 @@ public class XController : MonoBehaviour
         
     }
 
+    public void Respawn()
+    {
+        currHealth = maxHealth; 
+        rb2d = GetComponent<Rigidbody2D>();
+        rb2d.velocity = new Vector3(0,0,0);
+    }
+
     // Update is called once per frame
     void Update()
     {
 
         // Update healthbar 
         healthBar.SetHealth((int)currHealth);
+
+        if (IsDead()) return; 
 
         isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - 0.5f, transform.position.y - 0.5f), 
             new Vector2(transform.position.x + 0.5f, transform.position.y + 0.5f), ground);
@@ -163,4 +172,8 @@ public class XController : MonoBehaviour
         currHealth = Mathf.Min(currHealth + amountOfHealth, maxHealth);
     }
 
+    public bool IsDead()
+    {
+        return currHealth <= 0; 
+    }
 }

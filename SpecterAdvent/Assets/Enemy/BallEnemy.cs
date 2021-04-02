@@ -2,70 +2,76 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TurretShootAttack : MonoBehaviour
+public class BallEnemy : MonoBehaviour
 {
-
     public GameObject bulletPrefab;
     public Transform bulletSpawnLocation;
     public float bulletSpeed = 1; 
     public float attackSpeed = 1;
     public float attackDamage = 10;  
-    public float cannonTurnSpeed = 2;
     public float sightRange = 1;
-    public Transform cannonPivot; 
 
-    public PlayerManager playerManager; 
-
-    LayerMask mask; 
+    public EnemyPatrol enemyPatrol; 
+    public PlayerManager playerManager;
+    public Transform enemyGFX; 
+    LayerMask mask;
     float lastAttack; 
+
+    public Animator animator; 
 
     void Start()
     {
         playerManager = GameObject.Find("Player").GetComponent<PlayerManager>();
-        // Enemy can only see players and obstacles
-        // Things like bullets/enemies are ignored 
         mask = LayerMask.GetMask("Player") | LayerMask.GetMask("Ground");
+        enemyPatrol = GetComponent<EnemyPatrol>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Vector3 directionToPlayer = playerManager.GetPosition() - transform.position; 
+        Vector3 directionToPlayer = (playerManager.GetPosition() - transform.position).normalized; 
 
         // Determine if enemy can see player or obstacle 
         RaycastHit2D hit = Physics2D.Raycast(
-            transform.position + directionToPlayer.normalized, 
+            transform.position, 
             directionToPlayer, 
             sightRange, 
             mask
         );
-        
-        // if turret can see player
+
+        // if enemy can see player
         if (hit.collider != null
             && hit.collider.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            // angle == - if player is above
-            // angle == + if player is below
-            float angle = Vector3.SignedAngle(directionToPlayer, transform.right, Vector3.forward);
-            // clamping to interval [0, 180]
-            if (angle > 0)
-            {
-                return; 
-            }
-            // rotate towards player slowly
-            Quaternion targetRotation = Quaternion.Euler(0, 0, -angle-90);
-            cannonPivot.rotation = Quaternion.Slerp(cannonPivot.rotation, targetRotation, Time.deltaTime * cannonTurnSpeed);
+            // stop patrol
+            enemyPatrol.canMove = false; 
+            animator.Play("BallEnemyIdle");
 
-            // if not on attack cooldown 
+            // face player 
+            // left 
+            if (directionToPlayer.x >= 0.05f)
+            {
+                enemyGFX.localScale = new Vector3(-Mathf.Abs(enemyGFX.localScale.x), enemyGFX.localScale.y, enemyGFX.localScale.z);
+            }
+            else if (directionToPlayer.x <= -0.05f)
+            {
+                enemyGFX.localScale = new Vector3(Mathf.Abs(enemyGFX.localScale.x), enemyGFX.localScale.y, enemyGFX.localScale.z);
+            }  
+
+            // if not on attack cooldown
             if (Time.time > attackSpeed + lastAttack)
             {
                 // attack 
                 Shoot();
                 lastAttack = Time.time;
             }
-
         }
-        
+        // enemy cannot see player
+        else
+        {
+            // resume patrol
+            enemyPatrol.canMove = true; 
+            animator.Play("BallEnemyWalk");
+        }
     }
 
     void Shoot()

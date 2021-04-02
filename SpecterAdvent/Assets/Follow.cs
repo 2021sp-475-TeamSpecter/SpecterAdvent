@@ -14,7 +14,10 @@ public class Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 playerPos = playerManager.GetPosition();
-        transform.position = new Vector3(playerPos.x, playerPos.y, -7);
+        if (!playerManager.isDead)
+        {
+            Vector3 playerPos = playerManager.GetPosition();
+            transform.position = new Vector3(playerPos.x, playerPos.y, -7);
+        }
     }
 }

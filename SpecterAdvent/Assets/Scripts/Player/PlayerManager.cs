@@ -12,6 +12,8 @@ public class PlayerManager : MonoBehaviour
     public Collider2D XCollider; 
     int CharacterSelect;
 
+    public bool isDead = false; 
+
     void Start()
     { 
     	CharacterSelect = 1;
@@ -25,6 +27,16 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
+
+        if (isDead) return;
+
+        // Check if one of the characters died 
+        if (Zero.GetComponent<PlayerController2D>().IsDead()
+            || X.GetComponent<XController>().IsDead())
+        {
+            isDead = true; 
+        }
+
         // Character Swap 
         if(Input.GetButtonDown("Fire1"))
         {
@@ -105,6 +117,26 @@ public class PlayerManager : MonoBehaviour
         {
             X.GetComponent<XController>().AddHealth(amountOfHealth);
         }
+    }
+
+    // kills player
+    public void Die()
+    {
+        Zero.GetComponent<PlayerController2D>().currHealth = 0;
+        X.GetComponent<XController>().currHealth = 0;
+        isDead = true; 
+    }
+
+    public void Respawn(Vector3 spawnPoint)
+    {   
+        // move to respawn point
+        X.transform.position = spawnPoint;
+        Zero.transform.position = spawnPoint;
+        // reset characters 
+        X.GetComponent<XController>().Respawn();
+        Zero.GetComponent<PlayerController2D>().Respawn();
+        
+        isDead = false; 
     }
 
 }

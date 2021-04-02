@@ -83,8 +83,7 @@ public class EnemyController : MonoBehaviour
                 healthDrop.transform.localScale = new Vector3(randScale, randScale, 0);
                 // shoot in rand direction
                 float randAngle = Random.Range(angleLow, angleHigh);
-                Quaternion rotation = Quaternion.AngleAxis(randAngle, Vector3.up);
-                Vector3 direction = rotation * healthDrop.transform.position;
+                Vector3 direction = Quaternion.Euler(0,0,randAngle) * Vector3.right;
                 // with random velocity
                 float randSpeed = Random.Range(speedLow, speedHigh); 
                 healthDrop.GetComponent<Rigidbody2D>().velocity = direction * randSpeed;
