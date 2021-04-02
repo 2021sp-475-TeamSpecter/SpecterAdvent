@@ -20,6 +20,9 @@ public class PlayerManager : MonoBehaviour
         // get colliders
         ZeroCollider = Zero.GetComponent<Collider2D>();
         XCollider = X.GetComponent<Collider2D>();
+        // Reset characters
+        X.GetComponent<XController>().Respawn();
+        Zero.GetComponent<PlayerController2D>().Respawn();
         // Set X to be active first 
         X.SetActive(true);
         Zero.SetActive(false);
