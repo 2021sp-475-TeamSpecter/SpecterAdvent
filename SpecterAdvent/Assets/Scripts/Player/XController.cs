@@ -110,6 +110,7 @@ public class XController : MonoBehaviour
             isAttacking = true;
 
             animator.Play("XFire");
+            SoundManager.PlaySound ("GunShot");
 
             GameObject blast = (GameObject)Instantiate(blastLock);
             blast.GetComponent<BlastControl>().Shooter(isTurned);
@@ -131,6 +132,7 @@ public class XController : MonoBehaviour
             if(isGrounded)
             {
                 animator.Play("XJump");
+                SoundManager.PlaySound ("JumpSound");
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumpHeight);
             }
             else
@@ -138,6 +140,7 @@ public class XController : MonoBehaviour
                 if(jumpNum)
                 {
                     animator.Play("XJump");
+                    SoundManager.PlaySound ("JumpSound");
                     rb2d.velocity = new Vector2(rb2d.velocity.x, jumpHeight);
                     jumpNum = false;
                 }

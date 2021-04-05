@@ -97,8 +97,6 @@ public class PlayerController2D : MonoBehaviour
             {
                 animator.Play("Walking");
             }
-            //animator.Play("Walking");
-            //spriteRenderer.flipX = true;
             transform.localScale = new Vector3(-2,2,1);
         }
         else if(Input.GetKey("p") && !isAttacking)
@@ -106,6 +104,8 @@ public class PlayerController2D : MonoBehaviour
             isAttacking = true;
 
             animator.Play("attack");
+            SoundManager.PlaySound ("SwordSlash");
+
 
             //Invoke("AttackReset", .5f);
             StartCoroutine(Attacker());
@@ -116,32 +116,27 @@ public class PlayerController2D : MonoBehaviour
             {
                 animator.Play("Idle");
             }
-            //animator.Play("Idle");
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
         }
 
         if(Input.GetKey("space"))
         {
-            //float jumpVel = 100f;
             if(isGrounded)
             {
                 animator.Play("Jumping");
+                SoundManager.PlaySound ("JumpSound");
                 rb2d.velocity = new Vector2(rb2d.velocity.x, jumpHeight);
-                //rb2d.velocity = Vector2.up * jumpVel;
             }
             else
             {
                 if(jumpNum)
                 {
                     animator.Play("Jumping");
+                    SoundManager.PlaySound ("JumpSound");
                     rb2d.velocity = new Vector2(rb2d.velocity.x, jumpHeight);
-                    //rb2d.velocity = Vector2.up * jumpVel;
                     jumpNum = false;
                 }
             }
-            //rb2d.velocity = new Vector2(rb2d.velocity.x, 3);
-            //animator.Play("Jumping");
-            //rb2d.velocity = new Vector2(rb2d.velocity.x, 3);
 
         }
         

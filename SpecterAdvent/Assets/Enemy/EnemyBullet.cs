@@ -13,6 +13,8 @@ public class EnemyBullet : MonoBehaviour
     private float timeCreated;
     private float maxLifetime = 5f;
 
+    private bool isDying = false; 
+
     public PlayerManager playerManager; 
 
     void Start()
@@ -25,8 +27,8 @@ public class EnemyBullet : MonoBehaviour
 
     void Update()
     {
-        if(Time.time > maxLifetime)
-            Destroy(gameObject);
+        if(Time.time > maxLifetime && !isDying)
+            StartCoroutine(Hit());
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -47,6 +49,8 @@ public class EnemyBullet : MonoBehaviour
 
     IEnumerator Hit()
     {
+        isDying = true; 
+
         // disable bullet
         GetComponent<SpriteRenderer>().enabled = false; // out of sight 
         GetComponent<Collider2D>().enabled = false; // prevent collisions
