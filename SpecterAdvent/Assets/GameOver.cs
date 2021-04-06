@@ -21,7 +21,6 @@ public class GameOver : MonoBehaviour
     public void ButtonMoveScene(string level)
     {
         // get rid of player data 
-        
         SceneManager.LoadScene(level);
     }
 }

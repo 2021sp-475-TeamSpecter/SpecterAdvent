@@ -21,6 +21,9 @@ public class PlayerController2D : MonoBehaviour
     public float damage = 5; 
 
 
+    public float attackSpeed = 1f; 
+    float lastAttack = -10; 
+
     [SerializeField]
     private float runSpeed = 2f;
 
@@ -31,15 +34,15 @@ public class PlayerController2D : MonoBehaviour
     Transform groundChecker;
 
     [SerializeField]
-    GameObject hitBox;
+    public GameObject hitBox;
 
-    bool isAttacking = false;
+    public bool isAttacking = false;
 
 
 
-	Animator animator;
-	Rigidbody2D rb2d;
-	SpriteRenderer spriteRenderer;
+	public Animator animator;
+	public Rigidbody2D rb2d;
+	public SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
     void Start()
@@ -68,6 +71,8 @@ public class PlayerController2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        isAttacking = Time.time < attackSpeed + lastAttack;
 
         // Update healthbar 
         healthBar.SetHealth((int)currHealth);
@@ -101,11 +106,10 @@ public class PlayerController2D : MonoBehaviour
         }
         else if(Input.GetKey("p") && !isAttacking)
         {
-            isAttacking = true;
+            lastAttack = Time.time; 
 
             animator.Play("attack");
             SoundManager.PlaySound ("SwordSlash");
-
 
             //Invoke("AttackReset", .5f);
             StartCoroutine(Attacker());
@@ -142,7 +146,7 @@ public class PlayerController2D : MonoBehaviour
         
     }
 
-    void AttackReset()
+    public void StopAttacking()
     {
         isAttacking = false;
     }
@@ -152,7 +156,6 @@ public class PlayerController2D : MonoBehaviour
         hitBox.SetActive(true);
         yield return new WaitForSeconds(.5f);
         hitBox.SetActive(false);
-        isAttacking = false;
 
     }
 

@@ -37,11 +37,18 @@ public class CharacterSwap : MonoBehaviour
                 Zero.transform.position = X.transform.position;
                 X.SetActive(false);
             	Zero.SetActive(true);
+                // make sure zero is not attacking 
+                Zero.GetComponent<PlayerController2D>().StopAttacking();
+                Zero.GetComponent<PlayerController2D>().hitBox.SetActive(false);
             }
             else if (CharacterSelect == 2)
             {
                 CharacterSelect = 1;
-                X.transform.position = Zero.transform.position;                
+                X.transform.position = Zero.transform.position;              
+                // make sure zero is not attacking 
+                Zero.GetComponent<PlayerController2D>().StopAttacking();
+                Zero.GetComponent<PlayerController2D>().hitBox.SetActive(false);
+
                 Zero.SetActive(false);
                 X.SetActive(true);       
             }
